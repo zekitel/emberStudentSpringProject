@@ -7,6 +7,11 @@ const Router = EmberRouter.extend({
 });
 
 Router.map(function() {
+  this.route('add');
+  this.route('search');
+  this.route('delete');
+  this.route('showall');
+  this.route('update');
 });
 
 export default Router;
