@@ -1,5 +1,5 @@
 import Route from '@ember/routing/route';
-
+import $ from 'ember'
 
 export default Route.extend({
     model(){

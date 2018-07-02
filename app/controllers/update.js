@@ -1,14 +1,15 @@
+
 import Controller from '@ember/controller';
-import Ember from 'ember';
 import { inject as service } from '@ember/service';
 
 
-export default Ember.Controller.extend({
+export default Controller.extend({
 
     
     remotingService:service(),
 
     init() {
+        this._super(...arguments);
         this.set('item', {});
     },
 
