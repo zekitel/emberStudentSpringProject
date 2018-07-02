@@ -12,7 +12,7 @@ export default Controller.extend({
         this.set('item', {});
     },
 
-
+    //git inteli j deneme
     actions: {
         addStudent: function () {
             this.get('remotingService').postRemoteCall('http://localhost:8080/students/ekle',this.get('item'),false);
@@ -20,5 +20,5 @@ export default Controller.extend({
 
 
     }
-    
+
 });
