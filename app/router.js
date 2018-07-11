@@ -13,6 +13,7 @@ Router.map(function() {
   this.route('showall');
   this.route('update');
   this.route('students');
+  this.route('books');
 });
 
 export default Router;
