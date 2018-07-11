@@ -12,6 +12,7 @@ Router.map(function() {
   this.route('delete');
   this.route('showall');
   this.route('update');
+  this.route('students');
 });
 
 export default Router;
